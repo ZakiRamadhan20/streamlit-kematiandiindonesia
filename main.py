@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 st.set_page_config(page_title="Analisis Penyebab Kematian", layout="wide")
 
 # Judul aplikasi
-st.title("Prediksi dan Pengelompokan Faktor Risiko Penyakit Jantung")
+st.title("Prediksi dan Pengelompokan Faktor Risiko Penyebab Kematian di Indonesia")
 st.subheader("Evaluasi Performa Random Forest dan K-Means")
 
 # Membuat dua kolom dengan pembagian 30:70
