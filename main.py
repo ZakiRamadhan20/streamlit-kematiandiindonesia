@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
+import seaborn as sn
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.tree import DecisionTreeClassifier, plot_tree
