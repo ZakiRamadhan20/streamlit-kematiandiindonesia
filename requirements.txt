@@ -4,4 +4,4 @@ streamlit
 pip
 scikit-learn
 seaborn
-matplotlib
+matplotlib.pyplot
