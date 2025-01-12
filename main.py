@@ -23,7 +23,7 @@ with col1:
         <p style="text-align: center;">Drag and drop file here or browse</p>
     </div>
     """, unsafe_allow_html=True)
-    uploaded_file = st.file_uploader("", type=["csv", "xlsx"])
+    uploaded_file = st.file_uploader("Upload your dataset", type=["csv", "xlsx"])
 
     # Pesan untuk mengunggah file
     st.info("Silakan unggah file dataset untuk melanjutkan.")
